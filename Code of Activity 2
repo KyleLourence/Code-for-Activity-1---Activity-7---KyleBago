@@ -1,0 +1,92 @@
+Name: Kyle Lourence S. Bago
+Subject: Introduction to Web Technology
+
+ACTIVITY 1
+
+<?php
+  echo "Name: Kyle Lourence S. Bago <br>";
+  print "Course: BSIT";
+?>
+
+ACTIVITY 2
+
+<?php
+  echo "Ayooo!<br>";
+  echo "This is PHP<br>";
+  echo "Keep Practicing!<br><br>";
+
+  $message = "Happy Learning";
+  $Message = "Case Sensitive"; 
+  $year = 2024;
+
+  echo $message . "<br>";
+  echo $Message;
+?>
+
+ACTIVITY 3
+
+<?php
+  $name = "Kaisle";
+  $age = 20;
+
+  echo "Name: " . $name . "<br>";
+  echo "Age: " . $age;
+?>
+
+ACTIVITY 4
+
+<?php
+  $age = 20;
+  echo $age; 
+  echo "<br>";
+
+  $name1 = "Kaisle"; 
+  echo $name1;
+?>
+
+ACTIVITY 5
+
+<?php
+  $a = 10;
+  $b = 3;
+
+  echo "Addition: " . ($a + $b) . "<br>";
+  echo "Subtraction: " . ($a - $b) . "<br>";
+  echo "Multiplication: " . ($a * $b) . "<br>";
+  echo "Division: " . ($a / $b);
+?>
+
+ACTIVITY 6
+
+<?php
+  $x = 5;
+  $x += 3; 
+  echo $x; 
+?>
+
+Output: 8
+
+ACTIVITY 7
+
+<?php
+  $a = 10;
+  $b = 5;
+
+  var_dump($a > $b);  
+  echo "<br>";
+  var_dump($a == $b);
+?>
+
+MINI PROJECT
+
+<?php
+  $num1 = 10;
+  $num2 = 4;
+
+  echo "Sum: " . ($num1 + $num2) . "<br>";
+  echo "Difference: " . ($num1 - $num2) . "<br>";
+  echo "Product: " . ($num1 * $num2) . "<br>";
+  echo "Quotient: " . ($num1 / $num2);
+?>
+
+
